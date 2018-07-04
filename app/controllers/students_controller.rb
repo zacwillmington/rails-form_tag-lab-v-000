@@ -8,4 +8,7 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
 
+  def new 
+      @student = Student.create(params)
+  end
 end
