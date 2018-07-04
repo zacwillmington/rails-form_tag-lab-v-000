@@ -11,4 +11,5 @@ class StudentsController < ApplicationController
   def new 
       @student = Student.create(params)
   end
+  
 end
